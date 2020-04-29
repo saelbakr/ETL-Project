@@ -1,13 +1,11 @@
 DROP TABLE REVIEWS;
 
 CREATE TABLE REVIEWS(
-	LISTING_ID INT,
-	DATE TEXT,
+	reviewer_ID INT,
 	COMMENTS TEXT
 );
 
 
 
 alter table REVIEWS alter column COMMENTS drop not null;
-
 
